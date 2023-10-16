@@ -1,0 +1,188 @@
+* {
+    margin: 0px;
+    font-family: "inter";
+}
+
+#logo {
+    width: 125px;
+    height: 62px;
+    margin-top: 52px;
+    margin-left: 56px;
+}
+
+#SubTitulo {
+    margin-top: 50px;
+    margin-left: 172px;
+    font-weight: 526;
+    font-size: 40px;
+    height: 102px;
+    line-height: 51.4px;
+
+}
+
+#PrimeiroP {
+    width: 536px;
+    height: 90px;
+
+    margin-top: 25px;
+    margin-left: 172px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+
+}
+
+#MenuSuperior {
+
+    background-image: url(Imagens/fundoTitulo.svg);
+    color: white;
+    padding: 50px;
+}
+
+#MenuInformacao {
+
+    background-color: #EAECE5;
+
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+
+
+}
+
+.icone {
+    margin: 50px 0px 50px 100px;
+    padding: 20px;
+}
+
+.TextoInformativo {
+    display: flex;
+    align-items: center;
+}
+
+#VideoDNC {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin: 50px 25px 75px 100px;
+}
+
+.TextoVideo {
+    display: flex;
+    align-items: center;
+    margin-top: 25px
+}
+
+#subtitulovideoDNC {
+
+    color: #247BA0;
+    font-weight: 700;
+    font-size: 32px;
+
+
+}
+
+#carossel {
+    background-color: #247BA0;
+
+}
+
+#tituloCarrosel {
+    color: #EAECE5;
+    text-align: center;
+    font-size: 25px;
+    padding: 60px;
+
+}
+
+#cards{
+    
+
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding-bottom: 35px;
+    
+    
+}
+
+#setaEsquerda{
+    padding-left: 10px;
+    display: none;
+
+}
+
+
+#setaDireita{
+
+    
+    padding-left: 10px;
+    
+}
+
+#card1{
+    margin-left: 50px;
+    
+}
+
+
+#card2{
+    margin-left: 50px;
+    
+}
+
+#card3{
+    margin-left: 50px;
+    display: none;
+}
+
+.setas{
+    margin-top: 60px ;
+    cursor:pointer
+}
+
+.setas:hover{
+    transform: translateY(-17px);
+    transition: 1s;
+}
+
+#formulario{
+    text-align: center;
+}
+
+#tituloFormulario{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
+
+input{
+    width: 413px;
+    height: 53px;
+    background-color: #EAECE5;
+    margin: 10px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 25px;
+}
+
+button{
+    margin-top: 15px;
+    width: 413px;
+    height: 53px;
+    background-color: #247BA0;
+    border: 0;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 25px;
+    color: #EAECE5;
+
+
+}
+
+button:hover{
+    background-color: #247BA0;
+    color: #EAECE5;
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
